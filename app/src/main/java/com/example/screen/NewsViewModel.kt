@@ -3,7 +3,6 @@ package com.example.screen
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.network.NewsModel
 import com.example.repo.Repo
 import kotlinx.coroutines.launch
@@ -21,11 +20,11 @@ class NewsViewModel (): ViewModel(){
     suspend fun getNews(repo: Repo) : NewsModel?{
 
         return repo.newProvider().body()
-//      emit(Result.Loading(""))
+//      emit(AsyncImagePainter.State.Loading(""))
 //      try {
 //          emit(Result.Success(data = repo.newProvider().body()))
 //      }catch (e : Exception){
-//          emit( Result.Error(message = e.localizedMessage))
+//          emit(AsyncImagePainter.State.Error(message = e.localizedMessage))
 //      }
 
   }
