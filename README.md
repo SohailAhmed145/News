@@ -12,7 +12,8 @@ NewsApp is a simple Android application built using Kotlin and Jetpack Compose. 
 
 ## Screenshots
 
-- will be uploaded soon
+![WhatsApp Image 2024-06-03 at 11 11 48 PM](https://github.com/SohailAhmed145/NewsApp/assets/111264528/5b24b369-50b8-4b61-8323-2175c9131283)
+
 
 ## Requirements
 
